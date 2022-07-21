@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio.github.io/static/css/main.df4e7968.css",
+    "main.js": "/MyPortfolio.github.io/static/js/main.c0bdf276.js",
+    "static/js/787.509827db.chunk.js": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js",
+    "static/media/bgportfolio.png": "/MyPortfolio.github.io/static/media/bgportfolio.f92f9332594e1855fdd2.png",
+    "static/media/myresume.pdf": "/MyPortfolio.github.io/static/media/myresume.3c2f1fb945648e3aade4.pdf",
+    "static/media/owaisimg.png": "/MyPortfolio.github.io/static/media/owaisimg.06595a644eb2085c5a3b.png",
+    "static/media/agriculture.png": "/MyPortfolio.github.io/static/media/agriculture.35159bc8917758c54970.png",
+    "static/media/bgbank.jpg": "/MyPortfolio.github.io/static/media/bgbank.0abf2c21751411dc2f7a.jpg",
+    "static/media/bgblogr.jpg": "/MyPortfolio.github.io/static/media/bgblogr.24ad7520c71684c1ebf5.jpg",
+    "static/media/upwork.png": "/MyPortfolio.github.io/static/media/upwork.fc80aa33baedc1c46729.png",
+    "static/media/mentor.png": "/MyPortfolio.github.io/static/media/mentor.a26f773e3dc0f790b2a5.png",
+    "static/media/codewar.png": "/MyPortfolio.github.io/static/media/codewar.e0855acb81845d4d8492.png",
+    "static/media/easybank.png": "/MyPortfolio.github.io/static/media/easybank.709774a570f2b58db9ba.png",
+    "static/media/bgagriculture.png": "/MyPortfolio.github.io/static/media/bgagriculture.00f747807a0667070623.png",
+    "static/media/blogr.jpg": "/MyPortfolio.github.io/static/media/blogr.deeed775f084f4658b57.jpg",
+    "static/media/maineccommerce.png": "/MyPortfolio.github.io/static/media/maineccommerce.4372d92e716a082a0a0f.png",
+    "static/media/portfolio.png": "/MyPortfolio.github.io/static/media/portfolio.0324947ecfc472c42ad7.png",
+    "static/media/blacksquare.png": "/MyPortfolio.github.io/static/media/blacksquare.e0009913bad9348deefd.png",
+    "static/media/bgeccommerce.jpg": "/MyPortfolio.github.io/static/media/bgeccommerce.43546b4b1b8a59834700.jpg",
+    "static/media/logo.png": "/MyPortfolio.github.io/static/media/logo.747b7b16f4719f03a985.png",
+    "index.html": "/MyPortfolio.github.io/index.html",
+    "main.df4e7968.css.map": "/MyPortfolio.github.io/static/css/main.df4e7968.css.map",
+    "main.c0bdf276.js.map": "/MyPortfolio.github.io/static/js/main.c0bdf276.js.map",
+    "787.509827db.chunk.js.map": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df4e7968.css",
+    "static/js/main.c0bdf276.js"
+  ]
+}
