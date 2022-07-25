@@ -1,15 +1,9 @@
+import React, { useState } from "react";
 import logo from "../images/logo.png";
 /************************************************************ Hamburger coding ******************************************* */
-// {
-//   let hamburger = document.querySelector(".header-col-2");
-//   let hamburgerMenu = document.querySelector(".hamburger");
 
-//   hamburgerMenu.addEventListener("click", () => {
-//     hamburger.classList.toggle("active");
-//   });
-// }
-
-const header = () => {
+const Header = ({ ...props }) => {
+  const [isActive, setActive] = useState(false);
   return (
     <header className="parent-container" id="header-sec">
       <div className="header-div sub-container">
@@ -20,20 +14,20 @@ const header = () => {
           <div
             className="hamburger"
             onClick={() => {
-              document.querySelector(".nav").classList.toggle("active");
-              document.querySelector("main").classList.toggle("active");
+              setActive(!isActive);
+              props.pass().classList.toggle("active");
             }}
           >
             <div className="hamburger-menu"></div>
           </div>
-          <nav className="nav">
+          <nav className={`nav ${isActive ? "active" : ""}`}>
             <ul className="nav-list">
               <li className="nav-items hide-items">
                 <button
                   className="hide-btn"
                   onClick={() => {
-                    document.querySelector(".nav").classList.toggle("active");
-                    document.querySelector("main").classList.toggle("active");
+                    setActive(!isActive);
+                    props.pass().classList.toggle("active");
                   }}
                 >
                   X
@@ -44,8 +38,8 @@ const header = () => {
                   href="#home-sec"
                   className="items-link"
                   onClick={() => {
-                    document.querySelector(".nav").classList.toggle("active");
-                    document.querySelector("main").classList.toggle("active");
+                    setActive(!isActive);
+                    props.pass().classList.toggle("active");
                   }}
                 >
                   Home
@@ -56,8 +50,8 @@ const header = () => {
                   href="#service-sec"
                   className="items-link"
                   onClick={() => {
-                    document.querySelector(".nav").classList.toggle("active");
-                    document.querySelector("main").classList.toggle("active");
+                    setActive(!isActive);
+                    props.pass().classList.toggle("active");
                   }}
                 >
                   Services
@@ -68,8 +62,8 @@ const header = () => {
                   href="#skill-sec"
                   className="items-link"
                   onClick={() => {
-                    document.querySelector(".nav").classList.toggle("active");
-                    document.querySelector("main").classList.toggle("active");
+                    setActive(!isActive);
+                    props.pass().classList.toggle("active");
                   }}
                 >
                   Skills
@@ -80,8 +74,8 @@ const header = () => {
                   href="#project-sec"
                   className="items-link"
                   onClick={() => {
-                    document.querySelector(".nav").classList.toggle("active");
-                    document.querySelector("main").classList.toggle("active");
+                    setActive(!isActive);
+                    props.pass().classList.toggle("active");
                   }}
                 >
                   Projects
@@ -92,8 +86,8 @@ const header = () => {
                   href="#contact-sec"
                   className="items-link"
                   onClick={() => {
-                    document.querySelector(".nav").classList.toggle("active");
-                    document.querySelector("main").classList.toggle("active");
+                    setActive(!isActive);
+                    props.pass().classList.toggle("active");
                   }}
                 >
                   Contacts
@@ -120,4 +114,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

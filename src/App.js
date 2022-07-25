@@ -7,16 +7,24 @@ import Projects from "./components/Projects";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { useRef } from "react";
+
 function App() {
+  const mainRef = useRef(null);
+  const callBack = function () {
+    return mainRef.current;
+  };
+  // console.log(callBack());
+
   return (
     <div className="parent">
-      <Header></Header>
-      <main>
+      <Header pass={callBack}></Header>
+      <main ref={mainRef}>
         <Mainsec></Mainsec>
         <Service></Service>
         <Skills></Skills>
-        <Experience></Experience>
         <Projects></Projects>
+        <Experience></Experience>
         <Work></Work>
         <Contact></Contact>
       </main>

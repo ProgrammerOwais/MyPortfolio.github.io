@@ -8,8 +8,11 @@ import bgPortfolio from "../images/bgportfolio.png";
 import portfolio from "../images/portfolio.png";
 import bgAgriculture from "../images/bgagriculture.png";
 import agriculture from "../images/agriculture.png";
+import { useRef } from "react";
 
 const Projects = () => {
+  const myRef = useRef(null);
+
   {
     var move = 1;
   }
@@ -33,8 +36,7 @@ const Projects = () => {
                   }
                 }
 
-                let projectRow = document.querySelector(".sec5-row");
-                projectRow.style.transform = `translateX(${move}px)`;
+                myRef.current.style.transform = `translateX(${move}px`;
               }
             }}
           >
@@ -53,16 +55,14 @@ const Projects = () => {
                     move += -445;
                   }
                 }
-
-                let projectRow = document.querySelector(".sec5-row");
-                projectRow.style.transform = `translateX(${move}px)`;
+                myRef.current.style.transform = `translateX(${move}px`;
               }
             }}
           >
             &#62;&#62;
           </button>
         </div>
-        <div className="sec5-row">
+        <div ref={myRef} className="sec5-row">
           <div className="sec5-col top sec5-col1">
             <div className="project-div">
               <div className="project-info">

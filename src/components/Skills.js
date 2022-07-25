@@ -13,8 +13,10 @@ import git from "../images/git.png";
 import figma from "../images/figma.png";
 import cplus from "../images/cplus.png";
 import python from "../images/python.png";
+import { useRef } from "react";
 
 const Skills = () => {
+  const myRef = useRef(null);
   var move = 1;
   return (
     <div className="skills parent-container" id="skill-sec">
@@ -30,8 +32,7 @@ const Skills = () => {
                   move += 250;
                 }
 
-                let projectRow = document.querySelector(".sec3-row");
-                projectRow.style.transform = `translateX(${move}px)`;
+                myRef.current.style.transform = `translateX(${move}px)`;
               }
             }}
           >
@@ -45,15 +46,14 @@ const Skills = () => {
                   move += -250;
                 }
 
-                let projectRow = document.querySelector(".sec3-row");
-                projectRow.style.transform = `translateX(${move}px)`;
+                myRef.current.style.transform = `translateX(${move}px)`;
               }
             }}
           >
             &#62;&#62;
           </button>
         </div>
-        <div className="sec3-row">
+        <div ref={myRef} className="sec3-row">
           <div className="skill-div">
             <h3 className="heading3 sec3-heading3">HTML5</h3>
             <div className="skill-img-div">
