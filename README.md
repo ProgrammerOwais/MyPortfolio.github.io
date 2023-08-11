@@ -1,7 +1,6 @@
 ## My Personal Web Portfolio
 
-Hi there this is my personal portfolio where you can find out everything which you need about me.
-I am a Frontend Web developer & JavaScript Programmer. I created this portfolio by using React.js.
+Hi there! checkout my portfolio built on top of React.js
 
 ### Live site Link:
 
