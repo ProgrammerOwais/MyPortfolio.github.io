@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/MyPortfolio.github.io/static/css/main.3f1375e9.css",
-    "main.js": "/MyPortfolio.github.io/static/js/main.533d0383.js",
+    "main.css": "/MyPortfolio.github.io/static/css/main.a87755ed.css",
+    "main.js": "/MyPortfolio.github.io/static/js/main.bd915c01.js",
     "static/js/787.509827db.chunk.js": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js",
-    "static/media/bgportfolio.png": "/MyPortfolio.github.io/static/media/bgportfolio.f92f9332594e1855fdd2.png",
-    "static/media/myresume.pdf": "/MyPortfolio.github.io/static/media/myresume.3c2f1fb945648e3aade4.pdf",
+    "static/media/CandyCrush.png": "/MyPortfolio.github.io/static/media/CandyCrush.92ae758705014ec38410.png",
+    "static/media/Owaissible.png": "/MyPortfolio.github.io/static/media/Owaissible.fbb4ccfb4f645084939d.png",
+    "static/media/taskcollab.png": "/MyPortfolio.github.io/static/media/taskcollab.36c40b4811fab923d2dc.png",
     "static/media/agriculture.png": "/MyPortfolio.github.io/static/media/agriculture.35159bc8917758c54970.png",
+    "static/media/Owais_frontend_Resume.pdf": "/MyPortfolio.github.io/static/media/Owais_frontend_Resume.c9a135f3bf21fe9aa452.pdf",
     "static/media/newowaisimg.png": "/MyPortfolio.github.io/static/media/newowaisimg.83a72e88a574deb2ec50.png",
-    "static/media/bgbank.jpg": "/MyPortfolio.github.io/static/media/bgbank.0abf2c21751411dc2f7a.jpg",
-    "static/media/bgblogr.jpg": "/MyPortfolio.github.io/static/media/bgblogr.24ad7520c71684c1ebf5.jpg",
     "static/media/upwork.png": "/MyPortfolio.github.io/static/media/upwork.fc80aa33baedc1c46729.png",
     "static/media/mentor.png": "/MyPortfolio.github.io/static/media/mentor.a26f773e3dc0f790b2a5.png",
     "static/media/codewar.png": "/MyPortfolio.github.io/static/media/codewar.e0855acb81845d4d8492.png",
-    "static/media/easybank.png": "/MyPortfolio.github.io/static/media/easybank.709774a570f2b58db9ba.png",
     "static/media/bgagriculture.png": "/MyPortfolio.github.io/static/media/bgagriculture.00f747807a0667070623.png",
-    "static/media/blogr.jpg": "/MyPortfolio.github.io/static/media/blogr.deeed775f084f4658b57.jpg",
     "static/media/maineccommerce.png": "/MyPortfolio.github.io/static/media/maineccommerce.4372d92e716a082a0a0f.png",
-    "static/media/portfolio.png": "/MyPortfolio.github.io/static/media/portfolio.0324947ecfc472c42ad7.png",
+    "static/media/mongodb.png": "/MyPortfolio.github.io/static/media/mongodb.f8f06f9ab0d6cc7302d9.png",
     "static/media/blacksquare.png": "/MyPortfolio.github.io/static/media/blacksquare.e0009913bad9348deefd.png",
     "static/media/bgeccommerce.jpg": "/MyPortfolio.github.io/static/media/bgeccommerce.43546b4b1b8a59834700.jpg",
+    "static/media/seo.png": "/MyPortfolio.github.io/static/media/seo.685b5382dbc4406a14a6.png",
     "static/media/logo.png": "/MyPortfolio.github.io/static/media/logo.747b7b16f4719f03a985.png",
+    "static/media/tailwind.png": "/MyPortfolio.github.io/static/media/tailwind.bb951997308f47c8418a.png",
+    "static/media/node.png": "/MyPortfolio.github.io/static/media/node.f82958f1fb04a545079a.png",
     "index.html": "/MyPortfolio.github.io/index.html",
-    "main.3f1375e9.css.map": "/MyPortfolio.github.io/static/css/main.3f1375e9.css.map",
-    "main.533d0383.js.map": "/MyPortfolio.github.io/static/js/main.533d0383.js.map",
+    "main.a87755ed.css.map": "/MyPortfolio.github.io/static/css/main.a87755ed.css.map",
+    "main.bd915c01.js.map": "/MyPortfolio.github.io/static/js/main.bd915c01.js.map",
     "787.509827db.chunk.js.map": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f1375e9.css",
-    "static/js/main.533d0383.js"
+    "static/css/main.a87755ed.css",
+    "static/js/main.bd915c01.js"
   ]
 }
