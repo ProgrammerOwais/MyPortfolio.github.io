@@ -1,5 +1,5 @@
 import download from "../images/download.png";
-import myResume from "../myresume.pdf";
+import myResume from "../Owais_frontend_Resume.pdf";
 
 const Experience = () => {
   return (
@@ -11,15 +11,18 @@ const Experience = () => {
           <div className="sec4-col1">
             <div className="para-div">
               <p className="para">
-                I have worked on Upwork as a freelance front-end developer for
-                about a year plus & helped a lot of clients of creating a modern
-                beautiful looking websites & helping them with coding mostly
-                related to javascript.
+                I’m a professional Front end developer who has been working in
+                the freelance field for over 2+ years. My expertise encompasses
+                a wide array of tasks, including frontend coding, meticulous
+                debugging, innovative design implementation, fostering robust
+                connections between frontend and backend APIs, meticulous web
+                optimization, and the formulation of SEO-driven content
+                strategies.
               </p>
               <p className="para">
-                During those days, I learned & gained a lot of experience in
-                skills like how to negotiate & understand the needs of clients
-                with having point-to-point effective communications.
+                Over the course of my journey, I have garnered invaluable
+                skills, honing the art of negotiating and comprehending client
+                requirements through effective, direct communication.
               </p>
             </div>
             <div className="resume-div sec4-resume">

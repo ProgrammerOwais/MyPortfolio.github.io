@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../images/logo.png";
 /************************************************************ Hamburger coding ******************************************* */
 
@@ -8,7 +8,10 @@ const Header = ({ ...props }) => {
     <header className="parent-container" id="header-sec">
       <div className="header-div sub-container">
         <div className="header-col1">
-          <img src={logo} alt="logo" className="logo" />
+          <a href="/">
+            {" "}
+            <img src={logo} alt="logo" className="logo" />
+          </a>
         </div>
         <div className="header-col2">
           <div
@@ -100,12 +103,10 @@ const Header = ({ ...props }) => {
         </div>
         <div className="header-col3">
           {" "}
-          <a href="#contact-sec">
+          <a href="mailto:www.owaistag@gmail.com">
             <div className="header-btn-div">
               <div className="btn-bg"></div>
-              <div className="header-btn" href="www.google.com">
-                Hire me
-              </div>
+              <div className="header-btn">Hire me</div>
             </div>
           </a>
         </div>

@@ -8,7 +8,11 @@ const Footer = () => {
           © 2022 Created By 🤍 <span>Muhammad Owais</span>
         </p>
         <div className="foot-logo">
-          <img src={logo} alt="logo" className="logo" />
+          {" "}
+          <a href="/">
+            {" "}
+            <img src={logo} alt="logo" className="logo" />
+          </a>
         </div>
       </div>
     </footer>

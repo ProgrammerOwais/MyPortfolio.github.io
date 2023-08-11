@@ -1,13 +1,10 @@
 import bgeccomerce from "../images/bgeccommerce.jpg";
-import bgbank from "../images/bgbank.jpg";
 import eccommerce from "../images/maineccommerce.png";
-import easybank from "../images/easybank.png";
-import bgBlogr from "../images/bgblogr.jpg";
-import blogr from "../images/blogr.jpg";
-import bgPortfolio from "../images/bgportfolio.png";
-import portfolio from "../images/portfolio.png";
 import bgAgriculture from "../images/bgagriculture.png";
 import agriculture from "../images/agriculture.png";
+import CandyCrush from "../images/CandyCrush.png";
+import Owaissible from "../images/Owaissible.png";
+import taskcollab from "../images/taskcollab.png";
 import { useRef } from "react";
 
 const Projects = () => {
@@ -20,7 +17,7 @@ const Projects = () => {
     <div className="projects parent-container" id="project-sec">
       <div className="sec5 sub-container">
         <h4 className="heading4">|| My Projects</h4>
-        <h2 className="heading2">My Complete Projects</h2>
+        <h2 className="heading2">My Top Projects</h2>
         <div className="sec5-btn-div">
           <button
             className="sec5-btn sec5-left"
@@ -66,6 +63,119 @@ const Projects = () => {
           <div className="sec5-col top sec5-col1">
             <div className="project-div">
               <div className="project-info">
+                <h3 className="sec5-heading3-2">CandyCrush Game</h3>
+                <p className="sec5-para2">
+                  Developed an engaging Candy Crush-inspired game featuring
+                  dynamic candy-matching mechanics. Players strategize to align
+                  three identical candies vertically or horizontally, gaining
+                  points and advancing through levels.
+                </p>
+                <div className="project-links">
+                  <a
+                    href="https://programmerowais.github.io/candy-crush.github.io/"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Site <span>&#62;</span>
+                  </a>
+                  <a
+                    href="https://github.com/ProgrammerOwais/candy-crush.github.io/tree/main"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Code <span>&#62;</span>
+                  </a>
+                </div>
+              </div>
+              <img
+                src={CandyCrush}
+                alt="img"
+                className="sec5-bgImg sec5-bgImg1"
+              />
+              <img src={CandyCrush} alt="img" className="sec5-img" />
+            </div>
+            <h3 className="heading3 sec5-heading3">CandyCrush Game</h3>
+          </div>
+          <div className="sec5-col top sec5-col2">
+            <div className="project-div">
+              <div className="project-info">
+                <h3 className="sec5-heading3-2">Owaissible</h3>
+                <p className="sec5-para2">
+                  The app is built on top of next.js with robust features. In
+                  this web app you can show your top-rank & talented work in
+                  here, where people can see your awsome projects & get yourself
+                  hired from this platform.
+                </p>
+                <div className="project-links">
+                  <a
+                    href="https://flexibble-tau-tan.vercel.app/"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Site <span>&#62;</span>
+                  </a>
+                  <a
+                    href="https://github.com/ProgrammerOwais/Flexibble"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Code <span>&#62;</span>
+                  </a>
+                </div>
+              </div>
+              <img
+                src={Owaissible}
+                alt="img"
+                className="sec5-bgImg sec5-bgImg1"
+              />
+              <img src={Owaissible} alt="img" className="sec5-img" />
+            </div>
+            <h3 className="heading3 sec5-heading3">Owaissible</h3>
+          </div>
+          <div className="sec5-col top sec5-col3">
+            <div className="project-div">
+              <div className="project-info">
+                <h3 className="sec5-heading3-2">TaskCollab</h3>
+                <p className="sec5-para2">
+                  Revolutionizing task management and collaboration with robust
+                  authentication, chatting, and efficient project and task
+                  oversight. Elevate teamwork and productivity with TaskCollab.
+                </p>
+                <div className="project-links">
+                  <a
+                    href="https://task-collab-github-io.vercel.app/"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Site <span>&#62;</span>
+                  </a>
+                  <a
+                    href="https://github.com/ProgrammerOwais/TaskCollab.github.io"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Code <span>&#62;</span>
+                  </a>
+                </div>
+              </div>
+              <img
+                src={taskcollab}
+                alt="img"
+                className="sec5-bgImg sec5-bgImg1"
+              />
+              <img src={taskcollab} alt="img" className="sec5-img" />
+            </div>
+            <h3 className="heading3 sec5-heading3">TaskCollab</h3>
+          </div>
+          <div className="sec5-col top sec5-col4">
+            <div className="project-div">
+              <div className="project-info">
                 <h3 className="sec5-heading3-2">E-commerce Product Page</h3>
                 <p className="sec5-para2">
                   This web is about the selling advertisement for "Sneakers".
@@ -97,112 +207,7 @@ const Projects = () => {
             </div>
             <h3 className="heading3 sec5-heading3">E-commerce Product Page</h3>
           </div>
-          <div className="sec5-col top sec5-col2">
-            <div className="project-div">
-              <div className="project-info">
-                <h3 className="sec5-heading3-2">EasyBank</h3>
-                <p className="sec5-para2">
-                  This web contains good UI/UX effects. I created this web app
-                  by using react.js. This was a challenge given by a frontend
-                  mentor & I completed it successfully. The design is pure &
-                  perfect.
-                </p>
-                <div className="project-links">
-                  <a
-                    href="https://programmerowais.github.io/OwaisEasyBank.github.io/"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Site <span>&#62;</span>
-                  </a>
-                  <a
-                    href="https://github.com/ProgrammerOwais/OwaisEasyBank.github.io"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Code <span>&#62;</span>
-                  </a>
-                </div>
-              </div>
-              <img src={bgbank} alt="img" className="sec5-bgImg sec5-bgImg2" />
-              <img src={easybank} alt="img" className="sec5-img sec5-img2" />
-            </div>
-            <h3 className="heading3 sec5-heading3">EasyBank</h3>
-          </div>
-          <div className="sec5-col top sec5-col3">
-            <div className="project-div">
-              <div className="project-info">
-                <h3 className="sec5-heading3-2">Blogr Page</h3>
-                <p className="sec5-para2">
-                  This web is about blogging. It contains every basic info about
-                  blogging. I created this by using only HTML5/CSS3/JavaScript.
-                  This was a challenge given by a frontend mentor & I completed
-                  it successfully. The design is pure & perfect.
-                </p>
-                <div className="project-links">
-                  <a
-                    href="https://programmerowais.github.io/blogr-page.github.io/"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Site <span>&#62;</span>
-                  </a>
-                  <a
-                    href="https://github.com/ProgrammerOwais/blogr-page.github.io"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Code <span>&#62;</span>
-                  </a>
-                </div>
-              </div>
-              <img src={bgBlogr} alt="img" className="sec5-bgImg sec5-bgImg3" />
-              <img src={blogr} alt="img" className="sec5-img" />
-            </div>
-            <h3 className="heading3 sec5-heading3">Blogr Page</h3>
-          </div>
-          <div className="sec5-col top sec5-col4">
-            <div className="project-div">
-              <div className="project-info">
-                <h3 className="sec5-heading3-2">First Portfolio</h3>
-                <p className="sec5-para2">
-                  This is my first portfolio web. Mostly my main focus on this
-                  web was " How to create scrolling effect by using only
-                  css3/JavaScript". The web is fully responsive for all devices
-                  & W3C is validated with 0 errors & 0 warnings.
-                </p>
-                <div className="project-links">
-                  <a
-                    href="https://programmerowais.github.io/OwaisPortfolio.github.io/"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Site <span>&#62;</span>
-                  </a>
-                  <a
-                    href="https://github.com/ProgrammerOwais/OwaisPortfolio.github.io"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Code <span>&#62;</span>
-                  </a>
-                </div>
-              </div>
-              <img
-                src={bgPortfolio}
-                alt="img"
-                className="sec5-bgImg sec5-bgImg4"
-              />
-              <img src={portfolio} alt="img" className="sec5-img" />
-            </div>
-            <h3 className="heading3 sec5-heading3">First Portfolio</h3>
-          </div>
+
           <div className="sec5-col top sec5-col5">
             <div className="project-div">
               <div className="project-info">

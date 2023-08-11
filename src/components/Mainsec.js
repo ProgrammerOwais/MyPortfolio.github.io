@@ -1,6 +1,6 @@
 import myImg from "../images/newowaisimg.png";
 import download from "../images/download.png";
-import myResume from "../myresume.pdf";
+import myResume from "../Owais_frontend_Resume.pdf";
 
 const Mainsec = () => {
   return (
@@ -15,7 +15,7 @@ const Mainsec = () => {
             Frontend Web Developer<br></br> & JavaScript Programmer
           </h3>
           <div className="resume-div">
-            <a href={myResume} download="my resume">
+            <a href={myResume} download="owais_resume">
               <div className="resume-bg"></div>
               <button className="resumeBtn">
                 <span>Get Resume</span>

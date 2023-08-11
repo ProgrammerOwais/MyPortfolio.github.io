@@ -10,13 +10,82 @@ const Service = () => {
           &#62;
         </a>
         <h4 className="heading4">|| My Services</h4>
-        <h2 className="heading2">Service Provide For My Clients.</h2>
+        <h2 className="heading2">Services Offered to Clients</h2>
         <div className="sec2-row">
           <div className="sec2-col sec2-col1 top">
             <div className="sec2-logo-div">
+              <img src={javaScript} alt="logo" className="sec2-logo" />
+            </div>
+            <h3 className="heading3 sec2-heading3">Expertise</h3>
+            <ul className="sec2-list">
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Development
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; MERN STACK
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Next.js + Grafbase Project
+                Mgt
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; APIs Development &
+                Integration
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Website Optimization &
+                Efficiency
+              </li>
+            </ul>
+            {/* <ul className="sec2-list">
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Behavioral Support
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Adding functionality
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; bugs Fixation
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; API Integration
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; One Page Web App by React
+              </li>
+            </ul> */}
+          </div>
+
+          <div className="sec2-col sec2-col2 top">
+            <div className="sec2-logo-div">
+              <img src={technical} alt="logo" className="sec2-logo" />
+            </div>
+            <h3 className="heading3 sec2-heading3">Technical Support</h3>
+            <ul className="sec2-list">
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Behavioral Support
+              </li>{" "}
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; HTML5/CSS3 Support
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; MERN Stack + Next.js
+                Support
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend-Backend
+                Connectivity
+              </li>
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Make things upto date
+              </li>
+            </ul>
+          </div>
+          <div className="sec2-col sec2-col3 top">
+            <div className="sec2-logo-div">
               <img src={Design} alt="logo" className="sec2-logo" />
             </div>
-            <h3 className="heading3 sec2-heading3">Design To HTML</h3>
+            <h3 className="heading3 sec2-heading3">Design Conversion</h3>
             <ul className="sec2-list">
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; Figma To HTML
@@ -32,53 +101,6 @@ const Service = () => {
               </li>
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; W3C Validated
-              </li>
-            </ul>
-          </div>
-          <div className="sec2-col sec2-col2 top">
-            <div className="sec2-logo-div">
-              <img src={technical} alt="logo" className="sec2-logo" />
-            </div>
-            <h3 className="heading3 sec2-heading3">Technical Support</h3>
-            <ul className="sec2-list">
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; HTML5/CSS3 Support
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Making Errors Correction
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Support in Frontend
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Updates Frontend
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Meets The Client
-                Expectations
-              </li>
-            </ul>
-          </div>
-          <div className="sec2-col sec2-col3 top">
-            <div className="sec2-logo-div">
-              <img src={javaScript} alt="logo" className="sec2-logo" />
-            </div>
-            <h3 className="heading3 sec2-heading3">JavaScript Support</h3>
-            <ul className="sec2-list">
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Behavioral Support
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Adding functionality
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; bugs Fixation
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; API Integration
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; One Page Web App by React
               </li>
             </ul>
           </div>

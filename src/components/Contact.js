@@ -1,6 +1,4 @@
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -11,7 +9,7 @@ const Contact = () => {
           <div className="sec7-col sec7-col1">
             <div className="div1">
               <h5 className="sec7-heading5">Phone</h5>
-              <h5 className="sec7-heading5">0340-4021737</h5>
+              <h5 className="sec7-heading5">+92 3404021737</h5>
             </div>
             <div className="div1">
               <h5 className="sec7-heading5">Email</h5>
@@ -43,7 +41,15 @@ const Contact = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://twitter.com/Muhamma92019025"
+                  href="https://www.linkedin.com/in/muhammad-owais-45b03822b/"
+                  className="contact-link"
+                >
+                  <FaLinkedin className="contact-icon"></FaLinkedin>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/profile.php?id=100057764270618"
                   className="contact-link"
                 >
                   <FaFacebookF className="contact-icon"></FaFacebookF>
@@ -51,26 +57,16 @@ const Contact = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://twitter.com/Muhamma92019025"
+                  href="https://www.instagram.com/programmerowais"
                   className="contact-link"
                 >
-                  <FaTwitter className="contact-icon"></FaTwitter>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/muhammad-owais-45b03822b/"
-                  className="contact-link"
-                >
-                  <FaLinkedin className="contact-icon"></FaLinkedin>
+                  <FaInstagram className="contact-icon"></FaInstagram>
                 </a>
               </div>
             </div>
           </div>
           <div className="sec7-col sec7-col2">
-            <h2 className="heading2 sec7-heading2">
-              If you have any project or need help. Contact me.
-            </h2>
+            <h2 className="heading2 sec7-heading2">Wanna say hello to me</h2>
             <form
               className="form"
               action="https://formsubmit.co/owaisxeon@gmail.com"

@@ -11,8 +11,13 @@ import jquery from "../images/jquery.png";
 import github from "../images/github.png";
 import git from "../images/git.png";
 import figma from "../images/figma.png";
-import cplus from "../images/cplus.png";
 import python from "../images/python.png";
+import next from "../images/Nextjs.png";
+import node from "../images/node.png";
+import typescript from "../images/typescript.png";
+import tailwind from "../images/tailwind.png";
+import mongodb from "../images/mongodb.png";
+import seo from "../images/seo.png";
 import { useRef } from "react";
 
 const Skills = () => {
@@ -22,7 +27,7 @@ const Skills = () => {
     <div className="skills parent-container" id="skill-sec">
       <div className="sec3 sub-container">
         <h4 className="heading4">|| My Skills</h4>
-        <h2 className="heading2">Skills I Use In Web Development.</h2>
+        <h2 className="heading2">Skills I Use In Web Development</h2>
         <div className="sec5-btn-div sec3-btn-div">
           <button
             className="sec5-btn sec5-left"
@@ -77,11 +82,35 @@ const Skills = () => {
             <div className="skill-img-div">
               <img src={reactlogo} alt="icon" className="sec3-img" />
             </div>
+          </div>{" "}
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">Next.js</h3>
+            <div className="skill-img-div">
+              <img src={next} alt="icon" className="sec3-img" />
+            </div>
+          </div>
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">Node.js</h3>
+            <div className="skill-img-div">
+              <img src={node} alt="icon" className="sec3-img" />
+            </div>
+          </div>
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">TypeScript</h3>
+            <div className="skill-img-div">
+              <img src={typescript} alt="icon" className="sec3-img" />
+            </div>
           </div>
           <div className="skill-div">
             <h3 className="heading3 sec3-heading3">Bootstrap5</h3>
             <div className="skill-img-div">
               <img src={bootstrap} alt="icon" className="sec3-img" />
+            </div>
+          </div>
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">Tailwind</h3>
+            <div className="skill-img-div">
+              <img src={tailwind} alt="icon" className="sec3-img" />
             </div>
           </div>
           <div className="skill-div">
@@ -91,15 +120,39 @@ const Skills = () => {
             </div>
           </div>
           <div className="skill-div">
-            <h3 className="heading3 sec3-heading3">API</h3>
+            <h3 className="heading3 sec3-heading3">MongoDB</h3>
             <div className="skill-img-div">
-              <img src={api} alt="icon" className="sec3-img" />
+              <img src={mongodb} alt="icon" className="sec3-img" />
             </div>
           </div>
           <div className="skill-div">
             <h3 className="heading3 sec3-heading3">Firebase</h3>
             <div className="skill-img-div">
               <img src={firebase} alt="icon" className="sec3-img" />
+            </div>
+          </div>
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">APIs</h3>
+            <div className="skill-img-div">
+              <img src={api} alt="icon" className="sec3-img" />
+            </div>
+          </div>{" "}
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">Git</h3>
+            <div className="skill-img-div">
+              <img src={git} alt="icon" className="sec3-img" />
+            </div>
+          </div>
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">Github</h3>
+            <div className="skill-img-div">
+              <img src={github} alt="icon" className="sec3-img" />
+            </div>
+          </div>
+          <div className="skill-div">
+            <h3 className="heading3 sec3-heading3">SEO</h3>
+            <div className="skill-img-div">
+              <img src={seo} alt="icon" className="sec3-img" />
             </div>
           </div>
           <div className="skill-div">
@@ -115,27 +168,9 @@ const Skills = () => {
             </div>
           </div>
           <div className="skill-div">
-            <h3 className="heading3 sec3-heading3">Github</h3>
-            <div className="skill-img-div">
-              <img src={github} alt="icon" className="sec3-img" />
-            </div>
-          </div>
-          <div className="skill-div">
-            <h3 className="heading3 sec3-heading3">Git</h3>
-            <div className="skill-img-div">
-              <img src={git} alt="icon" className="sec3-img" />
-            </div>
-          </div>
-          <div className="skill-div">
             <h3 className="heading3 sec3-heading3">Figma</h3>
             <div className="skill-img-div">
               <img src={figma} alt="icon" className="sec3-img figma" />
-            </div>
-          </div>
-          <div className="skill-div">
-            <h3 className="heading3 sec3-heading3">C++</h3>
-            <div className="skill-img-div">
-              <img src={cplus} alt="icon" className="sec3-img cplus" />
             </div>
           </div>
           <div className="skill-div">
