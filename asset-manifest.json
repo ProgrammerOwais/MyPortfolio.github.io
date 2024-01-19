@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MyPortfolio.github.io/static/css/main.68a895be.css",
-    "main.js": "/MyPortfolio.github.io/static/js/main.bd915c01.js",
+    "main.css": "/MyPortfolio.github.io/static/css/main.2048e5fe.css",
+    "main.js": "/MyPortfolio.github.io/static/js/main.24d891b6.js",
     "static/js/787.509827db.chunk.js": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js",
     "static/media/CandyCrush.png": "/MyPortfolio.github.io/static/media/CandyCrush.92ae758705014ec38410.png",
     "static/media/Owaissible.png": "/MyPortfolio.github.io/static/media/Owaissible.fbb4ccfb4f645084939d.png",
     "static/media/taskcollab.png": "/MyPortfolio.github.io/static/media/taskcollab.36c40b4811fab923d2dc.png",
+    "static/media/owaisimgbgrm.png": "/MyPortfolio.github.io/static/media/owaisimgbgrm.a6daf53b00903df4d85c.png",
     "static/media/agriculture.png": "/MyPortfolio.github.io/static/media/agriculture.35159bc8917758c54970.png",
     "static/media/Owais_frontend_Resume.pdf": "/MyPortfolio.github.io/static/media/Owais_frontend_Resume.c9a135f3bf21fe9aa452.pdf",
-    "static/media/newowaisimg.png": "/MyPortfolio.github.io/static/media/newowaisimg.83a72e88a574deb2ec50.png",
     "static/media/upwork.png": "/MyPortfolio.github.io/static/media/upwork.fc80aa33baedc1c46729.png",
     "static/media/mentor.png": "/MyPortfolio.github.io/static/media/mentor.a26f773e3dc0f790b2a5.png",
     "static/media/codewar.png": "/MyPortfolio.github.io/static/media/codewar.e0855acb81845d4d8492.png",
@@ -22,12 +22,12 @@
     "static/media/tailwind.png": "/MyPortfolio.github.io/static/media/tailwind.bb951997308f47c8418a.png",
     "static/media/node.png": "/MyPortfolio.github.io/static/media/node.f82958f1fb04a545079a.png",
     "index.html": "/MyPortfolio.github.io/index.html",
-    "main.68a895be.css.map": "/MyPortfolio.github.io/static/css/main.68a895be.css.map",
-    "main.bd915c01.js.map": "/MyPortfolio.github.io/static/js/main.bd915c01.js.map",
+    "main.2048e5fe.css.map": "/MyPortfolio.github.io/static/css/main.2048e5fe.css.map",
+    "main.24d891b6.js.map": "/MyPortfolio.github.io/static/js/main.24d891b6.js.map",
     "787.509827db.chunk.js.map": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68a895be.css",
-    "static/js/main.bd915c01.js"
+    "static/css/main.2048e5fe.css",
+    "static/js/main.24d891b6.js"
   ]
 }
