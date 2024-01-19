@@ -1,4 +1,4 @@
-import myImg from "../images/newowaisimg.png";
+import myImg from "../images/owaisimgbgrm.png";
 import download from "../images/download.png";
 import myResume from "../Owais_frontend_Resume.pdf";
 

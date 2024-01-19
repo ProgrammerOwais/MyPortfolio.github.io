@@ -365,9 +365,9 @@ a {
   /* border: 1px solid blue; */
   width: 100%;
   min-width: 100px;
-  max-width: 400px;
+  max-width: 300px;
   left: 50%;
-  top: 5%;
+  top: 3%;
   transform: translateX(-50%);
   background-color: transparent;
 }
@@ -1428,7 +1428,7 @@ a {
     min-width: 650px;
     width: 100%;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 350px;
     /* border: 1px solid red; */
     /* border: 2px solid red; */
   }
