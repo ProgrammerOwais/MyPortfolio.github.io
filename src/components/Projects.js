@@ -60,6 +60,44 @@ const Projects = () => {
           </button>
         </div>
         <div ref={myRef} className="sec5-row">
+          <div className="sec5-col top sec5-col5">
+            <div className="project-div">
+              <div className="project-info">
+                <h3 className="sec5-heading3-2">Agriculture Company</h3>
+                <p className="sec5-para2">
+                  This web is about the advertisement for an agriculture
+                  company. This was a project given by one of my Upwork client.
+                  This web contains a lot of functionality which you will really
+                  like.
+                </p>
+                <div className="project-links">
+                  <a
+                    href="https://programmerowais.github.io/agriculturecompany.github.io/"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Site <span>&#62;</span>
+                  </a>
+                  <a
+                    href="https://github.com/ProgrammerOwais/agriculturecompany.github.io"
+                    className="project-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Code <span>&#62;</span>
+                  </a>
+                </div>
+              </div>
+              <img
+                src={bgAgriculture}
+                alt="img"
+                className="sec5-bgImg sec5-bgImg5"
+              />
+              <img src={agriculture} alt="img" className="sec5-img sec5-img5" />
+            </div>
+            <h3 className="heading3 sec5-heading3">Agriculture Company</h3>
+          </div>
           <div className="sec5-col top sec5-col1">
             <div className="project-div">
               <div className="project-info">
@@ -206,45 +244,6 @@ const Projects = () => {
               <img src={eccommerce} alt="img" className="sec5-img" />
             </div>
             <h3 className="heading3 sec5-heading3">E-commerce Product Page</h3>
-          </div>
-
-          <div className="sec5-col top sec5-col5">
-            <div className="project-div">
-              <div className="project-info">
-                <h3 className="sec5-heading3-2">Agriculture Company</h3>
-                <p className="sec5-para2">
-                  This web is about the advertisement for an agriculture
-                  company. This was a project given by one of my Upwork client.
-                  This web contains a lot of functionality which you will really
-                  like.
-                </p>
-                <div className="project-links">
-                  <a
-                    href="https://programmerowais.github.io/agriculturecompany.github.io/"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Site <span>&#62;</span>
-                  </a>
-                  <a
-                    href="https://github.com/ProgrammerOwais/agriculturecompany.github.io"
-                    className="project-btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Code <span>&#62;</span>
-                  </a>
-                </div>
-              </div>
-              <img
-                src={bgAgriculture}
-                alt="img"
-                className="sec5-bgImg sec5-bgImg5"
-              />
-              <img src={agriculture} alt="img" className="sec5-img sec5-img5" />
-            </div>
-            <h3 className="heading3 sec5-heading3">Agriculture Company</h3>
           </div>
         </div>
       </div>
