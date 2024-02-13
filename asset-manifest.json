@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/MyPortfolio.github.io/static/css/main.2048e5fe.css",
-    "main.js": "/MyPortfolio.github.io/static/js/main.24d891b6.js",
+    "main.js": "/MyPortfolio.github.io/static/js/main.e8cc9c2a.js",
     "static/js/787.509827db.chunk.js": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js",
     "static/media/CandyCrush.png": "/MyPortfolio.github.io/static/media/CandyCrush.92ae758705014ec38410.png",
     "static/media/Owaissible.png": "/MyPortfolio.github.io/static/media/Owaissible.fbb4ccfb4f645084939d.png",
     "static/media/taskcollab.png": "/MyPortfolio.github.io/static/media/taskcollab.36c40b4811fab923d2dc.png",
     "static/media/owaisimgbgrm.png": "/MyPortfolio.github.io/static/media/owaisimgbgrm.a6daf53b00903df4d85c.png",
     "static/media/agriculture.png": "/MyPortfolio.github.io/static/media/agriculture.35159bc8917758c54970.png",
-    "static/media/Owais_frontend_Resume.pdf": "/MyPortfolio.github.io/static/media/Owais_frontend_Resume.c9a135f3bf21fe9aa452.pdf",
     "static/media/upwork.png": "/MyPortfolio.github.io/static/media/upwork.fc80aa33baedc1c46729.png",
     "static/media/mentor.png": "/MyPortfolio.github.io/static/media/mentor.a26f773e3dc0f790b2a5.png",
     "static/media/codewar.png": "/MyPortfolio.github.io/static/media/codewar.e0855acb81845d4d8492.png",
     "static/media/bgagriculture.png": "/MyPortfolio.github.io/static/media/bgagriculture.00f747807a0667070623.png",
     "static/media/maineccommerce.png": "/MyPortfolio.github.io/static/media/maineccommerce.4372d92e716a082a0a0f.png",
+    "static/media/owaisresume.pdf": "/MyPortfolio.github.io/static/media/owaisresume.7d92a0af5fc588c46a79.pdf",
     "static/media/mongodb.png": "/MyPortfolio.github.io/static/media/mongodb.f8f06f9ab0d6cc7302d9.png",
     "static/media/blacksquare.png": "/MyPortfolio.github.io/static/media/blacksquare.e0009913bad9348deefd.png",
     "static/media/bgeccommerce.jpg": "/MyPortfolio.github.io/static/media/bgeccommerce.43546b4b1b8a59834700.jpg",
@@ -23,11 +23,11 @@
     "static/media/node.png": "/MyPortfolio.github.io/static/media/node.f82958f1fb04a545079a.png",
     "index.html": "/MyPortfolio.github.io/index.html",
     "main.2048e5fe.css.map": "/MyPortfolio.github.io/static/css/main.2048e5fe.css.map",
-    "main.24d891b6.js.map": "/MyPortfolio.github.io/static/js/main.24d891b6.js.map",
+    "main.e8cc9c2a.js.map": "/MyPortfolio.github.io/static/js/main.e8cc9c2a.js.map",
     "787.509827db.chunk.js.map": "/MyPortfolio.github.io/static/js/787.509827db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2048e5fe.css",
-    "static/js/main.24d891b6.js"
+    "static/js/main.e8cc9c2a.js"
   ]
 }
