@@ -72,7 +72,8 @@ const Projects = () => {
                 </p>
                 <div className="project-links">
                   <a
-                    href="https://programmerowais.github.io/agriculturecompany.github.io/"
+                    href="https://www.agcocorp.com/"
+                    // href="https://programmerowais.github.io/agriculturecompany.github.io/"
                     className="project-btn"
                     target="_blank"
                     rel="noopener noreferrer"

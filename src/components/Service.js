@@ -20,6 +20,9 @@ const Service = () => {
             <ul className="sec2-list">
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Development
+              </li>{" "}
+              <li className="sec2-items">
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Full-Stack Development
               </li>
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; MERN STACK
@@ -27,10 +30,6 @@ const Service = () => {
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; Next.js + Grafbase Project
                 Mgt
-              </li>
-              <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; APIs Development &
-                Integration
               </li>
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; Website Optimization &
@@ -63,21 +62,20 @@ const Service = () => {
             <h3 className="heading3 sec2-heading3">Technical Support</h3>
             <ul className="sec2-list">
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Behavioral Support
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend Technical Support
               </li>{" "}
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; HTML5/CSS3 Support
-              </li>
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Backend Technical Support
+              </li>{" "}
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; MERN Stack + Next.js
                 Support
               </li>
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Frontend-Backend
-                Connectivity
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Deployment Management
               </li>
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Make things upto date
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Maintaining Maintenance
               </li>
             </ul>
           </div>
@@ -91,13 +89,13 @@ const Service = () => {
                 <span>&#62;&#62; </span>&nbsp;&nbsp; Figma To HTML
               </li>
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; PSD To HTML
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Design To Code
               </li>
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; XD To HTML
+                <span>&#62;&#62; </span>&nbsp;&nbsp; User Requirements to Code
               </li>
               <li className="sec2-items">
-                <span>&#62;&#62; </span>&nbsp;&nbsp; Fully Responsive
+                <span>&#62;&#62; </span>&nbsp;&nbsp; Fully Responsive Web
               </li>
               <li className="sec2-items">
                 <span>&#62;&#62; </span>&nbsp;&nbsp; W3C Validated

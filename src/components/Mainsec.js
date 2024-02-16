@@ -12,7 +12,7 @@ const Mainsec = () => {
         <div className="sec1-col2">
           <h1 className="heading1">Hi I'm Muhammad Owais</h1>
           <h3 className="heading3">
-            Frontend Web Developer<br></br> & JavaScript Programmer
+            Full-Stack Web Developer<br></br> & JavaScript Expert
           </h3>
           <div className="resume-div">
             <a href={myResume} download="owais_resume">
